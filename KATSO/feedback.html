@@ -1,0 +1,115 @@
+
+    <html>
+    <head>
+        <link rel='StyleSheet' href="mystyle.css" type= "text/css">
+        <style>
+            ul {
+              list-style-type: none;
+              margin: 0;
+              text-align: center;
+              padding: 0;
+              margin: 50,50;
+              height: 100px;
+              overflow: hidden;
+              background-color:#0C3C60;
+            }
+
+            li {
+              float: left;
+            }
+
+            li a {
+              display: block;
+              color: white;
+              font-size: 40px;
+              text-align: center;
+              padding: 14px 16px;
+              padding-bottom: 10px;
+              margin-bottom: auto;
+              text-decoration: none;
+              height: 50px; 
+            }
+
+            li a:hover:not(.active) {
+              background-color:none;
+            }
+
+            .active {
+              background-color:none;
+              padding: 14px 16px; 
+              text-decoration: underline;
+            }
+            .container{
+                background-color: #D1E0EB;
+                color: #0C3C60;
+                text-align: center;
+                padding: 75px 10px 60px;
+            }
+    </style>
+    </head>
+    <body>
+        
+        <ul>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="lifestyle.html">LIFESTYLE</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="contacts.html">CONTACTS</a></li>
+                <li><a class="active" href="feedback.html">FEEDBACK</a></li>
+                
+              </ul>
+        </ul>
+        <div class="view">
+        </div>
+        <div class="container">
+            <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <hr class="big white">
+                <h5 class="text-center">Kindly write your feedback below:</h5>
+                <h3 class="mt-4">How do rate your experience in Dubai</h3>
+
+                <form>
+                    <label class="radio-inline"><input type="radio" name="experience" value="bad">Bad</label>
+                    <label class="radio-inline"><input type="radio" name="experience" value="bad">Good</label>
+                    <label class="radio-inline"><input type="radio" name="experience" value="bad">Average</label>
+                </div>
+            </div>
+
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <label class="col-md-4">Fullname*<br>
+                        <input type="text" id="text" required="" placeholder="Katso Ditlhakeng"></label><br>
+
+                        <label class="col-md-4">Email*<br>
+                        <input type="text" id="text" required="" placeholder="Katso@gmail.com"></label>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <label class="col-md-4">Age*<br>
+                        <input type="number" id="text" required="" placeholder="25"></label><br>
+
+                        <label class="col-md-4">Phone*<br>
+                        <input type="number" id="text" required="" placeholder="+98674008913"></label>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <label class="col-md-8">Comments*<br>
+                        <textarea id="comments" required="" placeholder="type your comment here.." cols="48 " rows="5"></textarea></label>
+                        <button>Submit</button>
+  
+                </div>
+                
+
+                </form>
+            
+        </div>
+        
+        
+        <div class="footer">
+            <p>All rights reserved.....@DUBAI TOUR COMPANY......PTY/LTD the best tourist company in the country....</p>
+          </div>
+
+    </body>
+</html>
